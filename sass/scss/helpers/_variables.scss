@@ -1,0 +1,23 @@
+//["#67001f","#b2182b","#d6604d","#f4a582","#fddbc7","#ffffff","#e0e0e0","#bababa","#878787","#4d4d4d","#1a1a1a"]
+$highlight-color-very-dark  : #67001f;
+$highlight-color-dark: #b2182b;
+$highlight-color: #d6604d;
+$highlight-color-light: #f4a582;
+$highlight-color-very-light: #fddbc7;
+
+$plain-font: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Myriad Pro", Myriad, "Liberation Sans", Arial, sans-serif;
+
+$title-font-weight: 300;
+
+$color-very-dark: #1a1a1a;
+$color-dark: #4d4d4d;
+$color: #878787;
+$color-light: #bababa;
+$color-very-light: #e0e0e0;
+
+//nav-bar-colors
+$bgDefault      : #ffffff;
+$bgHighlight    : #ffffff;
+$colDefault     : #878787;
+$colHighlight   : $highlight-color-dark;
+$dropDown       : false;

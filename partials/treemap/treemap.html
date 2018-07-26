@@ -1,0 +1,15 @@
+<main class="container-fluid">
+  <div class="back">
+    <a ui-sref="gallery"><i class="fa fa-arrow-left fa-2x"></i></a>
+  </div>
+  <h2>
+    <center>Population in London by Nationality (2013)<br /> <small>other than Great Britain</small></center>
+  </h2>
+  <div id="chart"></div>
+</main>
+<script>
+  $(function() {
+	$('main').height($(window).height() - 112);
+  });
+</script>
+<script src="js/leanark-treemap.js"></script>

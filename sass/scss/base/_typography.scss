@@ -1,0 +1,14 @@
+h1,h2,h3,h4,h5,h6 {
+ font-weight: $title-font-weight; 
+ color: $color-dark;
+ font-family: $plain-font;
+ text-rendering: optimizeLegibility;
+}
+
+a {  
+  color: $color-very-dark;
+  &:hover {
+   color: $highlight-color-dark; 
+   font-weight: $title-font-weight;  
+  }
+}

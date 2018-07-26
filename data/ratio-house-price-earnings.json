@@ -1,0 +1,2136 @@
+{
+"2004": [
+ {
+ "key": "City of London",
+"value": "7.27" 
+},
+{
+ "key": "Barking and Dagenham",
+"value": "5.75" 
+},
+{
+ "key": "Barnet",
+"value": "9.8" 
+},
+{
+ "key": "Bexley",
+"value": "8.69" 
+},
+{
+ "key": "Brent",
+"value": "9.92" 
+},
+{
+ "key": "Bromley",
+"value": "10.6" 
+},
+{
+ "key": "Camden",
+"value": "10.02" 
+},
+{
+ "key": "Croydon",
+"value": "7.43" 
+},
+{
+ "key": "Ealing",
+"value": "9.02" 
+},
+{
+ "key": "Enfield",
+"value": "6.98" 
+},
+{
+ "key": "Greenwich",
+"value": "6.9" 
+},
+{
+ "key": "Hackney",
+"value": "7.79" 
+},
+{
+ "key": "Hammersmith and Fulham",
+"value": "10.67" 
+},
+{
+ "key": "Haringey",
+"value": "9.08" 
+},
+{
+ "key": "Harrow",
+"value": "9.59" 
+},
+{
+ "key": "Havering",
+"value": "9.7" 
+},
+{
+ "key": "Hillingdon",
+"value": "7.27" 
+},
+{
+ "key": "Hounslow",
+"value": "7.91" 
+},
+{
+ "key": "Islington",
+"value": "8.4" 
+},
+{
+ "key": "Kensington and Chelsea",
+"value": "17.25" 
+},
+{
+ "key": "Kingston upon Thames",
+"value": "9.61" 
+},
+{
+ "key": "Lambeth",
+"value": "7.89" 
+},
+{
+ "key": "Lewisham",
+"value": "6.84" 
+},
+{
+ "key": "Merton",
+"value": "9.51" 
+},
+{
+ "key": "Newham",
+"value": "7.05" 
+},
+{
+ "key": "Redbridge",
+"value": "9.47" 
+},
+{
+ "key": "Richmond upon Thames",
+"value": "10.73" 
+},
+{
+ "key": "Southwark",
+"value": "7.36" 
+},
+{
+ "key": "Sutton",
+"value": "7.43" 
+},
+{
+ "key": "Tower Hamlets",
+"value": "6.02" 
+},
+{
+ "key": "Waltham Forest",
+"value": "8.03" 
+},
+{
+ "key": "Wandsworth",
+"value": "9.91" 
+},
+{
+ "key": "Westminster",
+"value": "11.482996973275046" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "Inner London",
+"value": "7.84" 
+},
+{
+ "key": "Outer London",
+"value": "8.27" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "North East",
+"value": "4.66" 
+},
+{
+ "key": "North West",
+"value": "4.84" 
+},
+{
+ "key": "Yorkshire And The Humber",
+"value": "5.17" 
+},
+{
+ "key": "East Midlands",
+"value": "6.05" 
+},
+{
+ "key": "West Midlands",
+"value": "6.04" 
+},
+{
+ "key": "East",
+"value": "7.23" 
+},
+{
+ "key": "London",
+"value": "7.67" 
+},
+{
+ "key": "South East",
+"value": "7.71" 
+},
+{
+ "key": "South West",
+"value": "7.71" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "England",
+"value": "6.58" 
+} 
+],
+"2005": [
+ {
+ "key": "City of London",
+"value": "6.9" 
+},
+{
+ "key": "Barking and Dagenham",
+"value": "6.03" 
+},
+{
+ "key": "Barnet",
+"value": "9.58" 
+},
+{
+ "key": "Bexley",
+"value": "7.71" 
+},
+{
+ "key": "Brent",
+"value": "10.11" 
+},
+{
+ "key": "Bromley",
+"value": "9.28" 
+},
+{
+ "key": "Camden",
+"value": "10.42" 
+},
+{
+ "key": "Croydon",
+"value": "8.16" 
+},
+{
+ "key": "Ealing",
+"value": "9.03" 
+},
+{
+ "key": "Enfield",
+"value": "8.41" 
+},
+{
+ "key": "Greenwich",
+"value": "7.32" 
+},
+{
+ "key": "Hackney",
+"value": "7.54" 
+},
+{
+ "key": "Hammersmith and Fulham",
+"value": "10.52" 
+},
+{
+ "key": "Haringey",
+"value": "9.17" 
+},
+{
+ "key": "Harrow",
+"value": "9.62" 
+},
+{
+ "key": "Havering",
+"value": "7.89" 
+},
+{
+ "key": "Hillingdon",
+"value": "7.49" 
+},
+{
+ "key": "Hounslow",
+"value": "8.04" 
+},
+{
+ "key": "Islington",
+"value": "8.73" 
+},
+{
+ "key": "Kensington and Chelsea",
+"value": "18.75" 
+},
+{
+ "key": "Kingston upon Thames",
+"value": "10.01" 
+},
+{
+ "key": "Lambeth",
+"value": "7.95" 
+},
+{
+ "key": "Lewisham",
+"value": "6.65" 
+},
+{
+ "key": "Merton",
+"value": "9.08" 
+},
+{
+ "key": "Newham",
+"value": "7.48" 
+},
+{
+ "key": "Redbridge",
+"value": "8.43" 
+},
+{
+ "key": "Richmond upon Thames",
+"value": "11.59" 
+},
+{
+ "key": "Southwark",
+"value": "7.84" 
+},
+{
+ "key": "Sutton",
+"value": "7.93" 
+},
+{
+ "key": "Tower Hamlets",
+"value": "6.32" 
+},
+{
+ "key": "Waltham Forest",
+"value": "8.28" 
+},
+{
+ "key": "Wandsworth",
+"value": "10.31" 
+},
+{
+ "key": "Westminster",
+"value": "11.93575750783422" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "Inner London",
+"value": "7.95" 
+},
+{
+ "key": "Outer London",
+"value": "8.41" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "North East",
+"value": "4.99" 
+},
+{
+ "key": "North West",
+"value": "5.38" 
+},
+{
+ "key": "Yorkshire And The Humber",
+"value": "5.57" 
+},
+{
+ "key": "East Midlands",
+"value": "6.15" 
+},
+{
+ "key": "West Midlands",
+"value": "6.19" 
+},
+{
+ "key": "East",
+"value": "7.48" 
+},
+{
+ "key": "London",
+"value": "7.86" 
+},
+{
+ "key": "South East",
+"value": "8.08" 
+},
+{
+ "key": "South West",
+"value": "8.05" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "England",
+"value": "6.81" 
+} 
+],
+"2006": [
+ {
+ "key": "City of London",
+"value": "7" 
+},
+{
+ "key": "Barking and Dagenham",
+"value": "6.25" 
+},
+{
+ "key": "Barnet",
+"value": "9.73" 
+},
+{
+ "key": "Bexley",
+"value": "7.68" 
+},
+{
+ "key": "Brent",
+"value": "9.58" 
+},
+{
+ "key": "Bromley",
+"value": "9.39" 
+},
+{
+ "key": "Camden",
+"value": "11.13" 
+},
+{
+ "key": "Croydon",
+"value": "7.92" 
+},
+{
+ "key": "Ealing",
+"value": "9.42" 
+},
+{
+ "key": "Enfield",
+"value": "8.16" 
+},
+{
+ "key": "Greenwich",
+"value": "7.63" 
+},
+{
+ "key": "Hackney",
+"value": "7.78" 
+},
+{
+ "key": "Hammersmith and Fulham",
+"value": "11.77" 
+},
+{
+ "key": "Haringey",
+"value": "9.18" 
+},
+{
+ "key": "Harrow",
+"value": "9.42" 
+},
+{
+ "key": "Havering",
+"value": "7.8" 
+},
+{
+ "key": "Hillingdon",
+"value": "8.24" 
+},
+{
+ "key": "Hounslow",
+"value": "8.72" 
+},
+{
+ "key": "Islington",
+"value": "8.93" 
+},
+{
+ "key": "Kensington and Chelsea",
+"value": "20.27" 
+},
+{
+ "key": "Kingston upon Thames",
+"value": "9.42" 
+},
+{
+ "key": "Lambeth",
+"value": "8.19" 
+},
+{
+ "key": "Lewisham",
+"value": "6.98" 
+},
+{
+ "key": "Merton",
+"value": "9.89" 
+},
+{
+ "key": "Newham",
+"value": "7.68" 
+},
+{
+ "key": "Redbridge",
+"value": "8.91" 
+},
+{
+ "key": "Richmond upon Thames",
+"value": "11.05" 
+},
+{
+ "key": "Southwark",
+"value": "7.71" 
+},
+{
+ "key": "Sutton",
+"value": "7.97" 
+},
+{
+ "key": "Tower Hamlets",
+"value": "6.38" 
+},
+{
+ "key": "Waltham Forest",
+"value": "9.43" 
+},
+{
+ "key": "Wandsworth",
+"value": "10.83" 
+},
+{
+ "key": "Westminster",
+"value": "13.46258789615456" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "Inner London",
+"value": "8.28" 
+},
+{
+ "key": "Outer London",
+"value": "8.67" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "North East",
+"value": "5.58" 
+},
+{
+ "key": "North West",
+"value": "5.68" 
+},
+{
+ "key": "Yorkshire And The Humber",
+"value": "5.86" 
+},
+{
+ "key": "East Midlands",
+"value": "6.13" 
+},
+{
+ "key": "West Midlands",
+"value": "6.43" 
+},
+{
+ "key": "East",
+"value": "7.48" 
+},
+{
+ "key": "London",
+"value": "8.08" 
+},
+{
+ "key": "South East",
+"value": "7.97" 
+},
+{
+ "key": "South West",
+"value": "8.01" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "England",
+"value": "6.97" 
+} 
+],
+"2007": [
+ {
+ "key": "City of London",
+"value": "8.8" 
+},
+{
+ "key": "Barking and Dagenham",
+"value": "6.44" 
+},
+{
+ "key": "Barnet",
+"value": "10.81" 
+},
+{
+ "key": "Bexley",
+"value": "8.18" 
+},
+{
+ "key": "Brent",
+"value": "10.74" 
+},
+{
+ "key": "Bromley",
+"value": "9.95" 
+},
+{
+ "key": "Camden",
+"value": "12.59" 
+},
+{
+ "key": "Croydon",
+"value": "8.35" 
+},
+{
+ "key": "Ealing",
+"value": "9.52" 
+},
+{
+ "key": "Enfield",
+"value": "9.3" 
+},
+{
+ "key": "Greenwich",
+"value": "7.09" 
+},
+{
+ "key": "Hackney",
+"value": "8.97" 
+},
+{
+ "key": "Hammersmith and Fulham",
+"value": "12.34" 
+},
+{
+ "key": "Haringey",
+"value": "9.58" 
+},
+{
+ "key": "Harrow",
+"value": "10.63" 
+},
+{
+ "key": "Havering",
+"value": "8.44" 
+},
+{
+ "key": "Hillingdon",
+"value": "7.95" 
+},
+{
+ "key": "Hounslow",
+"value": "8.67" 
+},
+{
+ "key": "Islington",
+"value": "9.92" 
+},
+{
+ "key": "Kensington and Chelsea",
+"value": "23.26" 
+},
+{
+ "key": "Kingston upon Thames",
+"value": "10.72" 
+},
+{
+ "key": "Lambeth",
+"value": "9.12" 
+},
+{
+ "key": "Lewisham",
+"value": "7.91" 
+},
+{
+ "key": "Merton",
+"value": "9.8" 
+},
+{
+ "key": "Newham",
+"value": "8.26" 
+},
+{
+ "key": "Redbridge",
+"value": "8.71" 
+},
+{
+ "key": "Richmond upon Thames",
+"value": "12.01" 
+},
+{
+ "key": "Southwark",
+"value": "8.49" 
+},
+{
+ "key": "Sutton",
+"value": "8.8" 
+},
+{
+ "key": "Tower Hamlets",
+"value": "6.99" 
+},
+{
+ "key": "Waltham Forest",
+"value": "9.58" 
+},
+{
+ "key": "Wandsworth",
+"value": "12.15" 
+},
+{
+ "key": "Westminster",
+"value": "13.521840652806342" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "Inner London",
+"value": "9.17" 
+},
+{
+ "key": "Outer London",
+"value": "9.04" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "North East",
+"value": "5.69" 
+},
+{
+ "key": "North West",
+"value": "5.81" 
+},
+{
+ "key": "Yorkshire And The Humber",
+"value": "6.01" 
+},
+{
+ "key": "East Midlands",
+"value": "6.45" 
+},
+{
+ "key": "West Midlands",
+"value": "6.46" 
+},
+{
+ "key": "East",
+"value": "7.87" 
+},
+{
+ "key": "London",
+"value": "8.17" 
+},
+{
+ "key": "South East",
+"value": "8.45" 
+},
+{
+ "key": "South West",
+"value": "8.34" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "England",
+"value": "7.23" 
+} 
+],
+"2008": [
+ {
+ "key": "City of London",
+"value": "7.7" 
+},
+{
+ "key": "Barking and Dagenham",
+"value": "7.23" 
+},
+{
+ "key": "Barnet",
+"value": "10.37" 
+},
+{
+ "key": "Bexley",
+"value": "7.58" 
+},
+{
+ "key": "Brent",
+"value": "10.97" 
+},
+{
+ "key": "Bromley",
+"value": "9.37" 
+},
+{
+ "key": "Camden",
+"value": "12.89" 
+},
+{
+ "key": "Croydon",
+"value": "8.53" 
+},
+{
+ "key": "Ealing",
+"value": "10.06" 
+},
+{
+ "key": "Enfield",
+"value": "9.44" 
+},
+{
+ "key": "Greenwich",
+"value": "8.21" 
+},
+{
+ "key": "Hackney",
+"value": "8.58" 
+},
+{
+ "key": "Hammersmith and Fulham",
+"value": "13.03" 
+},
+{
+ "key": "Haringey",
+"value": "10.39" 
+},
+{
+ "key": "Harrow",
+"value": "10.25" 
+},
+{
+ "key": "Havering",
+"value": "7.81" 
+},
+{
+ "key": "Hillingdon",
+"value": "7.94" 
+},
+{
+ "key": "Hounslow",
+"value": "8.92" 
+},
+{
+ "key": "Islington",
+"value": "10.42" 
+},
+{
+ "key": "Kensington and Chelsea",
+"value": "24.83" 
+},
+{
+ "key": "Kingston upon Thames",
+"value": "11.11" 
+},
+{
+ "key": "Lambeth",
+"value": "9.07" 
+},
+{
+ "key": "Lewisham",
+"value": "7.82" 
+},
+{
+ "key": "Merton",
+"value": "11.43" 
+},
+{
+ "key": "Newham",
+"value": "9.07" 
+},
+{
+ "key": "Redbridge",
+"value": "8.87" 
+},
+{
+ "key": "Richmond upon Thames",
+"value": "12.48" 
+},
+{
+ "key": "Southwark",
+"value": "8.79" 
+},
+{
+ "key": "Sutton",
+"value": "9.22" 
+},
+{
+ "key": "Tower Hamlets",
+"value": "7.13" 
+},
+{
+ "key": "Waltham Forest",
+"value": "8.98" 
+},
+{
+ "key": "Wandsworth",
+"value": "12.06" 
+},
+{
+ "key": "Westminster",
+"value": "14.218604564949349" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "Inner London",
+"value": "9" 
+},
+{
+ "key": "Outer London",
+"value": "9" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "North East",
+"value": "5.47" 
+},
+{
+ "key": "North West",
+"value": "5.54" 
+},
+{
+ "key": "Yorkshire And The Humber",
+"value": "5.68" 
+},
+{
+ "key": "East Midlands",
+"value": "6.03" 
+},
+{
+ "key": "West Midlands",
+"value": "6.11" 
+},
+{
+ "key": "East",
+"value": "7.76" 
+},
+{
+ "key": "London",
+"value": "8.28" 
+},
+{
+ "key": "South East",
+"value": "8.42" 
+},
+{
+ "key": "South West",
+"value": "8.06" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "England",
+"value": "6.93" 
+} 
+],
+"2009": [
+ {
+ "key": "City of London",
+"value": "7.77" 
+},
+{
+ "key": "Barking and Dagenham",
+"value": "6.05" 
+},
+{
+ "key": "Barnet",
+"value": "9.13" 
+},
+{
+ "key": "Bexley",
+"value": "7.02" 
+},
+{
+ "key": "Brent",
+"value": "9.69" 
+},
+{
+ "key": "Bromley",
+"value": "8.77" 
+},
+{
+ "key": "Camden",
+"value": "11.79" 
+},
+{
+ "key": "Croydon",
+"value": "7.36" 
+},
+{
+ "key": "Ealing",
+"value": "8.83" 
+},
+{
+ "key": "Enfield",
+"value": "8.39" 
+},
+{
+ "key": "Greenwich",
+"value": "7.55" 
+},
+{
+ "key": "Hackney",
+"value": "7.85" 
+},
+{
+ "key": "Hammersmith and Fulham",
+"value": "11.37" 
+},
+{
+ "key": "Haringey",
+"value": "8.92" 
+},
+{
+ "key": "Harrow",
+"value": "8.6" 
+},
+{
+ "key": "Havering",
+"value": "7.11" 
+},
+{
+ "key": "Hillingdon",
+"value": "6.96" 
+},
+{
+ "key": "Hounslow",
+"value": "7.46" 
+},
+{
+ "key": "Islington",
+"value": "9.42" 
+},
+{
+ "key": "Kensington and Chelsea",
+"value": "22.56" 
+},
+{
+ "key": "Kingston upon Thames",
+"value": "9.26" 
+},
+{
+ "key": "Lambeth",
+"value": "7.48" 
+},
+{
+ "key": "Lewisham",
+"value": "6.92" 
+},
+{
+ "key": "Merton",
+"value": "9.11" 
+},
+{
+ "key": "Newham",
+"value": "6.51" 
+},
+{
+ "key": "Redbridge",
+"value": "7.19" 
+},
+{
+ "key": "Richmond upon Thames",
+"value": "11.49" 
+},
+{
+ "key": "Southwark",
+"value": "8.58" 
+},
+{
+ "key": "Sutton",
+"value": "8.07" 
+},
+{
+ "key": "Tower Hamlets",
+"value": "6.38" 
+},
+{
+ "key": "Waltham Forest",
+"value": "7.39" 
+},
+{
+ "key": "Wandsworth",
+"value": "10.82" 
+},
+{
+ "key": "Westminster",
+"value": "13.570891280455792" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "Inner London",
+"value": "8.58" 
+},
+{
+ "key": "Outer London",
+"value": "8.08" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "North East",
+"value": "5.1" 
+},
+{
+ "key": "North West",
+"value": "5.17" 
+},
+{
+ "key": "Yorkshire And The Humber",
+"value": "5.21" 
+},
+{
+ "key": "East Midlands",
+"value": "5.46" 
+},
+{
+ "key": "West Midlands",
+"value": "5.67" 
+},
+{
+ "key": "East",
+"value": "6.8" 
+},
+{
+ "key": "London",
+"value": "7.64" 
+},
+{
+ "key": "South East",
+"value": "7.28" 
+},
+{
+ "key": "South West",
+"value": "7.18" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "England",
+"value": "6.27" 
+} 
+],
+"2010": [
+ {
+ "key": "City of London",
+"value": "8.7" 
+},
+{
+ "key": "Barking and Dagenham",
+"value": "6.220012288444446" 
+},
+{
+ "key": "Barnet",
+"value": "10.682434703319817" 
+},
+{
+ "key": "Bexley",
+"value": "7.631424808610139" 
+},
+{
+ "key": "Brent",
+"value": "9.94461172925406" 
+},
+{
+ "key": "Bromley",
+"value": "9.824477758574295" 
+},
+{
+ "key": "Camden",
+"value": "12.7355845728286" 
+},
+{
+ "key": "Croydon",
+"value": "7.615818080719899" 
+},
+{
+ "key": "Ealing",
+"value": "9.652679057196512" 
+},
+{
+ "key": "Enfield",
+"value": "8.428866008837554" 
+},
+{
+ "key": "Greenwich",
+"value": "7.845303425115378" 
+},
+{
+ "key": "Hackney",
+"value": "8.686337291097466" 
+},
+{
+ "key": "Hammersmith and Fulham",
+"value": "13.250643775833273" 
+},
+{
+ "key": "Haringey",
+"value": "9.601507770363073" 
+},
+{
+ "key": "Harrow",
+"value": "10.509874263830898" 
+},
+{
+ "key": "Havering",
+"value": "7.770531168786281" 
+},
+{
+ "key": "Hillingdon",
+"value": "7.569505144413827" 
+},
+{
+ "key": "Hounslow",
+"value": "8.03244221843335" 
+},
+{
+ "key": "Islington",
+"value": "11.029555426982453" 
+},
+{
+ "key": "Kensington and Chelsea",
+"value": "24.944647245961857" 
+},
+{
+ "key": "Kingston upon Thames",
+"value": "10.487222918619532" 
+},
+{
+ "key": "Lambeth",
+"value": "8.893080291075663" 
+},
+{
+ "key": "Lewisham",
+"value": "7.905502097300871" 
+},
+{
+ "key": "Merton",
+"value": "10.122335656650375" 
+},
+{
+ "key": "Newham",
+"value": "7.068382585387152" 
+},
+{
+ "key": "Redbridge",
+"value": "8.11644489568013" 
+},
+{
+ "key": "Richmond upon Thames",
+"value": "12.189061723533326" 
+},
+{
+ "key": "Southwark",
+"value": "8.98449343763762" 
+},
+{
+ "key": "Sutton",
+"value": "8.613878537446869" 
+},
+{
+ "key": "Tower Hamlets",
+"value": "7.013279645007822" 
+},
+{
+ "key": "Waltham Forest",
+"value": "7.983932649574067" 
+},
+{
+ "key": "Wandsworth",
+"value": "11.889489884267347" 
+},
+{
+ "key": "Westminster",
+"value": "15.769675755876802" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "Inner London",
+"value": "9.567335210025623" 
+},
+{
+ "key": "Outer London",
+"value": "8.517758004410982" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "North East",
+"value": "5.190238459018201" 
+},
+{
+ "key": "North West",
+"value": "5.233522868955666" 
+},
+{
+ "key": "Yorkshire And The Humber",
+"value": "5.50142546796417" 
+},
+{
+ "key": "East Midlands",
+"value": "5.646449257762764" 
+},
+{
+ "key": "West Midlands",
+"value": "5.125416000728688" 
+},
+{
+ "key": "East",
+"value": "7.490293641079639" 
+},
+{
+ "key": "London",
+"value": "8.385787135298727" 
+},
+{
+ "key": "South East",
+"value": "8.23236920529412" 
+},
+{
+ "key": "South West",
+"value": "7.910800666708004" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "England",
+"value": "7.012588279746484" 
+} 
+],
+"2011": [
+ {
+ "key": "City of London",
+"value": "8.997167516524703" 
+},
+{
+ "key": "Barking and Dagenham",
+"value": "5.848460601620217" 
+},
+{
+ "key": "Barnet",
+"value": "10.87776901977913" 
+},
+{
+ "key": "Bexley",
+"value": "7.925496123550322" 
+},
+{
+ "key": "Brent",
+"value": "10.842444592037" 
+},
+{
+ "key": "Bromley",
+"value": "9.636011150241472" 
+},
+{
+ "key": "Camden",
+"value": "13.413792132930682" 
+},
+{
+ "key": "Croydon",
+"value": "7.409576397471341" 
+},
+{
+ "key": "Ealing",
+"value": "10.065451105934157" 
+},
+{
+ "key": "Enfield",
+"value": "8.85696075679903" 
+},
+{
+ "key": "Greenwich",
+"value": "8.343280810178777" 
+},
+{
+ "key": "Hackney",
+"value": "9.11439928329484" 
+},
+{
+ "key": "Hammersmith and Fulham",
+"value": "12.99948532649932" 
+},
+{
+ "key": "Haringey",
+"value": "10.881071166282643" 
+},
+{
+ "key": "Harrow",
+"value": "10.853756892745915" 
+},
+{
+ "key": "Havering",
+"value": "7.660236895722903" 
+},
+{
+ "key": "Hillingdon",
+"value": "7.675501730020319" 
+},
+{
+ "key": "Hounslow",
+"value": "7.747798960998023" 
+},
+{
+ "key": "Islington",
+"value": "11.277248081268565" 
+},
+{
+ "key": "Kensington and Chelsea",
+"value": "27.0362765229295" 
+},
+{
+ "key": "Kingston upon Thames",
+"value": "10.457492427464485" 
+},
+{
+ "key": "Lambeth",
+"value": "8.791263995378307" 
+},
+{
+ "key": "Lewisham",
+"value": "8.039391924314502" 
+},
+{
+ "key": "Merton",
+"value": "10.105814581504555" 
+},
+{
+ "key": "Newham",
+"value": "7.230771610792024" 
+},
+{
+ "key": "Redbridge",
+"value": "8.277883340499615" 
+},
+{
+ "key": "Richmond upon Thames",
+"value": "13.60115124030141" 
+},
+{
+ "key": "Southwark",
+"value": "9.113769603904414" 
+},
+{
+ "key": "Sutton",
+"value": "8.844804492589306" 
+},
+{
+ "key": "Tower Hamlets",
+"value": "6.579064330604372" 
+},
+{
+ "key": "Waltham Forest",
+"value": "7.963568172522021" 
+},
+{
+ "key": "Wandsworth",
+"value": "12.169730943956809" 
+},
+{
+ "key": "Westminster",
+"value": "17.255160992327315" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "Inner London",
+"value": "9.761067111328845" 
+},
+{
+ "key": "Outer London",
+"value": "8.632862842308429" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "North East",
+"value": "4.992874180942309" 
+},
+{
+ "key": "North West",
+"value": "5.213535231209115" 
+},
+{
+ "key": "Yorkshire And The Humber",
+"value": "5.284301671212414" 
+},
+{
+ "key": "East Midlands",
+"value": "5.645361103730822" 
+},
+{
+ "key": "West Midlands",
+"value": "5.777549033999697" 
+},
+{
+ "key": "East",
+"value": "7.246100080392543" 
+},
+{
+ "key": "London",
+"value": "8.571617979454297" 
+},
+{
+ "key": "South East",
+"value": "7.970302858569823" 
+},
+{
+ "key": "South West",
+"value": "7.599538154531358" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "England",
+"value": "6.692524146322914" 
+} 
+],
+"2012": [
+ {
+ "key": "City of London",
+"value": "10.106560206929961" 
+},
+{
+ "key": "Barking and Dagenham",
+"value": "5.0872650781493505" 
+},
+{
+ "key": "Barnet",
+"value": "11.401541947494417" 
+},
+{
+ "key": "Bexley",
+"value": "7.376489775061799" 
+},
+{
+ "key": "Brent",
+"value": "11.592426094780441" 
+},
+{
+ "key": "Bromley",
+"value": "9.761556672332484" 
+},
+{
+ "key": "Camden",
+"value": "13.976776188684882" 
+},
+{
+ "key": "Croydon",
+"value": "7.703494874663899" 
+},
+{
+ "key": "Ealing",
+"value": "10.44319952201909" 
+},
+{
+ "key": "Enfield",
+"value": "8.66528526246368" 
+},
+{
+ "key": "Greenwich",
+"value": "8.13340394930115" 
+},
+{
+ "key": "Hackney",
+"value": "10.025125608764737" 
+},
+{
+ "key": "Hammersmith and Fulham",
+"value": "14.561681190670038" 
+},
+{
+ "key": "Haringey",
+"value": "11.150583423861269" 
+},
+{
+ "key": "Harrow",
+"value": "11.342524689547277" 
+},
+{
+ "key": "Havering",
+"value": "7.7643541112618895" 
+},
+{
+ "key": "Hillingdon",
+"value": "7.795702696845391" 
+},
+{
+ "key": "Hounslow",
+"value": "8.703864581687991" 
+},
+{
+ "key": "Islington",
+"value": "11.460956474721604" 
+},
+{
+ "key": "Kensington and Chelsea",
+"value": "28.997869409789793" 
+},
+{
+ "key": "Kingston upon Thames",
+"value": "11.088893471899668" 
+},
+{
+ "key": "Lambeth",
+"value": "9.439062541158703" 
+},
+{
+ "key": "Lewisham",
+"value": "8.41635612340609" 
+},
+{
+ "key": "Merton",
+"value": "10.484506881490598" 
+},
+{
+ "key": "Newham",
+"value": "7.3478553762389" 
+},
+{
+ "key": "Redbridge",
+"value": "9.16239078140005" 
+},
+{
+ "key": "Richmond upon Thames",
+"value": "14.1702022725574" 
+},
+{
+ "key": "Southwark",
+"value": "9.328572254501488" 
+},
+{
+ "key": "Sutton",
+"value": "8.876089004982497" 
+},
+{
+ "key": "Tower Hamlets",
+"value": "6.942999679922837" 
+},
+{
+ "key": "Waltham Forest",
+"value": "8.867914404209904" 
+},
+{
+ "key": "Wandsworth",
+"value": "13.86542868196292" 
+},
+{
+ "key": "Westminster",
+"value": "17.73756995890131" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "Inner London",
+"value": "10.012755632126717" 
+},
+{
+ "key": "Outer London",
+"value": "8.998428791867553" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "North East",
+"value": "5.046045162104201" 
+},
+{
+ "key": "North West",
+"value": "5.283908466447182" 
+},
+{
+ "key": "Yorkshire And The Humber",
+"value": "5.352437417654809" 
+},
+{
+ "key": "East Midlands",
+"value": "5.593681474863965" 
+},
+{
+ "key": "West Midlands",
+"value": "5.9005819395271235" 
+},
+{
+ "key": "East",
+"value": "7.381812966150315" 
+},
+{
+ "key": "London",
+"value": "8.600177737006565" 
+},
+{
+ "key": "South East",
+"value": "8.127772848269743" 
+},
+{
+ "key": "South West",
+"value": "7.607501728977666" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "England",
+"value": "6.860650284961342" 
+} 
+],
+"2013": [
+ {
+ "key": "City of London",
+"value": "12.124356064699738" 
+},
+{
+ "key": "Barking and Dagenham",
+"value": "5.053988866866569" 
+},
+{
+ "key": "Barnet",
+"value": "10.881450963761369" 
+},
+{
+ "key": "Bexley",
+"value": "8.02644243705204" 
+},
+{
+ "key": "Brent",
+"value": "11.628964754876405" 
+},
+{
+ "key": "Bromley",
+"value": "9.992045706169295" 
+},
+{
+ "key": "Camden",
+"value": "15.276961346757492" 
+},
+{
+ "key": "Croydon",
+"value": "7.567278570442374" 
+},
+{
+ "key": "Ealing",
+"value": "11.11616052777942" 
+},
+{
+ "key": "Enfield",
+"value": "9.37065850881393" 
+},
+{
+ "key": "Greenwich",
+"value": "8.262181199312256" 
+},
+{
+ "key": "Hackney",
+"value": "11.296480379647454" 
+},
+{
+ "key": "Hammersmith and Fulham",
+"value": "16.296537400016184" 
+},
+{
+ "key": "Haringey",
+"value": "10.539387195576612" 
+},
+{
+ "key": "Harrow",
+"value": "11.951928560310543" 
+},
+{
+ "key": "Havering",
+"value": "7.404043595008687" 
+},
+{
+ "key": "Hillingdon",
+"value": "7.574358084913728" 
+},
+{
+ "key": "Hounslow",
+"value": "9.479135674460064" 
+},
+{
+ "key": "Islington",
+"value": "12.27298986689358" 
+},
+{
+ "key": "Kensington and Chelsea",
+"value": "32.389425167469646" 
+},
+{
+ "key": "Kingston upon Thames",
+"value": "11.856834117501226" 
+},
+{
+ "key": "Lambeth",
+"value": "9.802286606130119" 
+},
+{
+ "key": "Lewisham",
+"value": "8.033599727500297" 
+},
+{
+ "key": "Merton",
+"value": "11.288821665338585" 
+},
+{
+ "key": "Newham",
+"value": "7.657813869176096" 
+},
+{
+ "key": "Redbridge",
+"value": "8.83869336952671" 
+},
+{
+ "key": "Richmond upon Thames",
+"value": "15.005395373152028" 
+},
+{
+ "key": "Southwark",
+"value": "9.674958980511361" 
+},
+{
+ "key": "Sutton",
+"value": "8.555783709787816" 
+},
+{
+ "key": "Tower Hamlets",
+"value": "6.68143973018068" 
+},
+{
+ "key": "Waltham Forest",
+"value": "8.733574330078705" 
+},
+{
+ "key": "Wandsworth",
+"value": "14.442889154070064" 
+},
+{
+ "key": "Westminster",
+"value": "20.364345221596682" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "Inner London",
+"value": "10.405454620393476" 
+},
+{
+ "key": "Outer London",
+"value": "9.103855918092073" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "North East",
+"value": "5.034249401667079" 
+},
+{
+ "key": "North West",
+"value": "5.176024339167885" 
+},
+{
+ "key": "Yorkshire And The Humber",
+"value": "5.385816682016578" 
+},
+{
+ "key": "East Midlands",
+"value": "5.55577445919855" 
+},
+{
+ "key": "West Midlands",
+"value": "5.837112995464405" 
+},
+{
+ "key": "East",
+"value": "7.0499488878705625" 
+},
+{
+ "key": "London",
+"value": "9.83206106870229" 
+},
+{
+ "key": "South East",
+"value": "7.925801011804385" 
+},
+{
+ "key": "South West",
+"value": "7.413187670698401" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "England",
+"value": "6.71970101932999" 
+} 
+],
+"2014": [
+ {
+ "key": "City of London",
+"value": "18.943981886588563" 
+},
+{
+ "key": "Barking and Dagenham",
+"value": "7.889329223543226" 
+},
+{
+ "key": "Barnet",
+"value": "12.481275745849457" 
+},
+{
+ "key": "Bexley",
+"value": "7.639652854174306" 
+},
+{
+ "key": "Brent",
+"value": "12.284651527016445" 
+},
+{
+ "key": "Bromley",
+"value": "9.166529852788267" 
+},
+{
+ "key": "Camden",
+"value": "17.938550349329663" 
+},
+{
+ "key": "Croydon",
+"value": "8.28125" 
+},
+{
+ "key": "Ealing",
+"value": "12.774994193184458" 
+},
+{
+ "key": "Enfield",
+"value": "9.275665899375205" 
+},
+{
+ "key": "Greenwich",
+"value": "10.227272727272727" 
+},
+{
+ "key": "Hackney",
+"value": "13.325482661377793" 
+},
+{
+ "key": "Hammersmith and Fulham",
+"value": "17.4415446867447" 
+},
+{
+ "key": "Haringey",
+"value": "13.199061400078216" 
+},
+{
+ "key": "Harrow",
+"value": "11.778139772582088" 
+},
+{
+ "key": "Havering",
+"value": "8.041946794480008" 
+},
+{
+ "key": "Hillingdon",
+"value": "9.654487815812226" 
+},
+{
+ "key": "Hounslow",
+"value": "10.494727767093309" 
+},
+{
+ "key": "Islington",
+"value": "14.510356937090181" 
+},
+{
+ "key": "Kensington and Chelsea",
+"value": "26.46753418907275" 
+},
+{
+ "key": "Kingston upon Thames",
+"value": "10.490463215258856" 
+},
+{
+ "key": "Lambeth",
+"value": "12.82403590730054" 
+},
+{
+ "key": "Lewisham",
+"value": "9.842212154350882" 
+},
+{
+ "key": "Merton",
+"value": "11.67303377599903" 
+},
+{
+ "key": "Newham",
+"value": "9.68429207824908" 
+},
+{
+ "key": "Redbridge",
+"value": "9.057697533287039" 
+},
+{
+ "key": "Richmond upon Thames",
+"value": "13.444366409150195" 
+},
+{
+ "key": "Southwark",
+"value": "12.430646090410212" 
+},
+{
+ "key": "Sutton",
+"value": "9.096131750287245" 
+},
+{
+ "key": "Tower Hamlets",
+"value": "10.772196394148997" 
+},
+{
+ "key": "Waltham Forest",
+"value": "11.472412433226975" 
+},
+{
+ "key": "Wandsworth",
+"value": "13.655354488132465" 
+},
+{
+ "key": "Westminster",
+"value": "21.211035182846814" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "Inner London",
+"value": "13.429361268732722" 
+},
+{
+ "key": "Outer London",
+"value": "9.888437911364633" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "North East",
+"value": "5.034395263603045" 
+},
+{
+ "key": "North West",
+"value": "5.377194369761189" 
+},
+{
+ "key": "Yorkshire And The Humber",
+"value": "5.52" 
+},
+{
+ "key": "East Midlands",
+"value": "5.851398052152057" 
+},
+{
+ "key": "West Midlands",
+"value": "6.115596770325365" 
+},
+{
+ "key": "East",
+"value": "7.480424569340525" 
+},
+{
+ "key": "London",
+"value": "11.103993166773435" 
+},
+{
+ "key": "South East",
+"value": "8.358693107714945" 
+},
+{
+ "key": "South West",
+"value": "7.68344218209758" 
+},
+{
+ "key": "",
+"value": "" 
+},
+{
+ "key": "England",
+"value": "7.090909090909091" 
+} 
+] 
+}

@@ -1,0 +1,11 @@
+@mixin adjusted-color($lightness) {
+  @if $lightness > 80% {
+    fill: $color-very-dark;
+  } 
+  @else if $lightness > 50% {
+    fill: $color;
+  } 
+  @else {
+    fill: $color-very-light;
+  }  
+}

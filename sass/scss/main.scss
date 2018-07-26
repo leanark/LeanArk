@@ -1,0 +1,62 @@
+@import 'helpers/all';
+@import 'base/all';
+@import 'modules/all';
+
+body {
+  font-family: $plain-font;
+  color: $color-dark;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.block {
+  position: absolute;
+  background: #eee;
+  padding: 20px;
+  width: 300px;
+  border: 1px solid #ddd;
+}
+
+.block {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.block img {
+  width: 100%;
+  height: 100%;
+}
+.panel-transparent {
+  background: none;
+}
+
+.panel-transparent .panel-heading{
+  background: rgba(122, 130, 136, 0.2)!important;
+}
+
+.panel-transparent .panel-body{
+  background: rgba(46, 51, 56, 0.2)!important;
+}
+
+.active-path {
+  stroke: $highlight-color!important;
+}
+
+.back {
+  position: absolute; 
+  top: -62px; 
+  left: 10px;
+}
+
+a {
+  color: $color;
+  &:hover {
+    color: $highlight-color-dark;  
+  } 
+  &:focus {
+    color: $highlight-color-dark;  
+  } 
+}

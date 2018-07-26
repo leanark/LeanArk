@@ -1,0 +1,11 @@
+.cell {
+  stroke: $color;
+}
+
+text{    
+  .cell & {
+    @include adjusted-color(81%); /* targets text element inside .cell class*/
+   stroke: none;
+  }
+  
+}

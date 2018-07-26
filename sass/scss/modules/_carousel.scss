@@ -1,0 +1,30 @@
+#carousel {
+  background-color: white;
+}
+
+.gradient {
+  background-image:
+    radial-gradient(
+      white,
+      white,
+      $color-very-light,
+      $color-very-light
+    );
+}
+
+.carousel-inner>.item>div {
+    margin: auto 0;
+    height: 600px;
+}
+
+.carousel-indicators li{
+  border-color: $highlight-color;
+}
+
+.carousel-indicators .active{
+  background-color: $highlight-color;
+}
+
+.carousel-control {
+  background-image: none!important;
+}

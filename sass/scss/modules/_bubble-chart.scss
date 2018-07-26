@@ -1,0 +1,18 @@
+//.bubble-node {
+  //fill: $color-very-light;
+//}
+
+.bubble-node circle {
+  stroke: $color-very-light;
+}
+
+//.bubble-hover {
+  //fill: $highlight-color-very-light;
+//}
+
+.bubble-label {
+  cursor: pointer;
+  fill: $color-dark;
+  text-anchor: middle;
+  //white-space: normal!important;
+}

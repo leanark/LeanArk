@@ -1,0 +1,13 @@
+.btn-default
+{  
+  border-color: $highlight-color;
+  color: $color-very-dark; 
+  &:hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active {
+    border-color: $highlight-color;
+    color: $color-very-dark; 
+  }
+}

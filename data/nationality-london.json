@@ -1,0 +1,254 @@
+[
+ {
+ "nationality": "United Kingdom",
+"population-in-london": 6.198e+06,
+"conf-interval":  81000,
+"population-per-nationality":   10.7 
+},
+{
+ "nationality": "Poland",
+"population-in-london": 1.33e+05,
+"conf-interval":  13000,
+"population-per-nationality":   18.4 
+},
+{
+ "nationality": "India",
+"population-in-london": 1.2e+05,
+"conf-interval":  12000,
+"population-per-nationality":   36.3 
+},
+{
+ "nationality": "Ireland",
+"population-in-london": 1.02e+05,
+"conf-interval":  10000,
+"population-per-nationality":   31.1 
+},
+{
+ "nationality": "France",
+"population-in-london":  76000,
+"conf-interval":   8000,
+"population-per-nationality":   54.3 
+},
+{
+ "nationality": "Romania",
+"population-in-london":  70000,
+"conf-interval":   9000,
+"population-per-nationality":   54.6 
+},
+{
+ "nationality": "Italy",
+"population-in-london":  66000,
+"conf-interval":   8000,
+"population-per-nationality":   49.5 
+},
+{
+ "nationality": "Portugal",
+"population-in-london":  57000,
+"conf-interval":   8000,
+"population-per-nationality":     42 
+},
+{
+ "nationality": "Pakistan",
+"population-in-london":  51000,
+"conf-interval":   8000,
+"population-per-nationality":   26.5 
+},
+{
+ "nationality": "Lithuania",
+"population-in-london":  50000,
+"conf-interval":   7000,
+"population-per-nationality":   32.1 
+},
+{
+ "nationality": "Germany",
+"population-in-london":  49000,
+"conf-interval":   7000,
+"population-per-nationality":   39.3 
+},
+{
+ "nationality": "United States",
+"population-in-london":  49000,
+"conf-interval":   7000,
+"population-per-nationality":   35.9 
+},
+{
+ "nationality": "Nigeria",
+"population-in-london":  44000,
+"conf-interval":   7000,
+"population-per-nationality":     42 
+},
+{
+ "nationality": "Spain (Except Canary Islands)",
+"population-in-london":  37000,
+"conf-interval":   6000,
+"population-per-nationality":   45.3 
+},
+{
+ "nationality": "Australia",
+"population-in-london":  37000,
+"conf-interval":   7000,
+"population-per-nationality":   53.4 
+},
+{
+ "nationality": "Bangladesh",
+"population-in-london":  35000,
+"conf-interval":   6000,
+"population-per-nationality":   50.8 
+},
+{
+ "nationality": "Ghana",
+"population-in-london":  30000,
+"conf-interval":   6000,
+"population-per-nationality":   68.6 
+},
+{
+ "nationality": "Bulgaria",
+"population-in-london":  28000,
+"conf-interval":   6000,
+"population-per-nationality":   57.5 
+},
+{
+ "nationality": "Sri Lanka",
+"population-in-london":  28000,
+"conf-interval":   6000,
+"population-per-nationality":   52.3 
+},
+{
+ "nationality": "Hungary",
+"population-in-london":  26000,
+"conf-interval":   6000,
+"population-per-nationality":   36.2 
+},
+{
+ "nationality": "Jamaica",
+"population-in-london":  25000,
+"conf-interval":   5000,
+"population-per-nationality":   53.6 
+},
+{
+ "nationality": "Turkey",
+"population-in-london":  24000,
+"conf-interval":   5000,
+"population-per-nationality":   64.1 
+},
+{
+ "nationality": "South Africa",
+"population-in-london":  24000,
+"conf-interval":   6000,
+"population-per-nationality":   29.8 
+},
+{
+ "nationality": "Netherlands",
+"population-in-london":  23000,
+"conf-interval":   5000,
+"population-per-nationality":   34.6 
+},
+{
+ "nationality": "Greece",
+"population-in-london":  22000,
+"conf-interval":   5000,
+"population-per-nationality":   53.1 
+},
+{
+ "nationality": "Japan",
+"population-in-london":  22000,
+"conf-interval":   5000,
+"population-per-nationality":   66.4 
+},
+{
+ "nationality": "Philippines",
+"population-in-london":  22000,
+"conf-interval":   5000,
+"population-per-nationality":   36.2 
+},
+{
+ "nationality": "Nepal",
+"population-in-london":  22000,
+"conf-interval":   5000,
+"population-per-nationality":   36.4 
+},
+{
+ "nationality": "China",
+"population-in-london":  21000,
+"conf-interval":   5000,
+"population-per-nationality":   26.5 
+},
+{
+ "nationality": "Brazil",
+"population-in-london":  21000,
+"conf-interval":   5000,
+"population-per-nationality":   51.7 
+},
+{
+ "nationality": "New Zealand",
+"population-in-london":  21000,
+"conf-interval":   5000,
+"population-per-nationality":   51.8 
+},
+{
+ "nationality": "Somalia",
+"population-in-london":  20000,
+"conf-interval":   5000,
+"population-per-nationality":     46 
+},
+{
+ "nationality": "Sweden",
+"population-in-london":  16000,
+"conf-interval":   4000,
+"population-per-nationality":   47.2 
+},
+{
+ "nationality": "Afghanistan",
+"population-in-london":  16000,
+"conf-interval":   4000,
+"population-per-nationality":   52.3 
+},
+{
+ "nationality": "Latvia",
+"population-in-london":  14000,
+"conf-interval":   4000,
+"population-per-nationality":     16 
+},
+{
+ "nationality": "Russia",
+"population-in-london":  14000,
+"conf-interval":   4000,
+"population-per-nationality":   38.9 
+},
+{
+ "nationality": "Cyprus (Non-European Union)",
+"population-in-london":  12000,
+"conf-interval":   4000,
+"population-per-nationality":   57.8 
+},
+{
+ "nationality": "Iran",
+"population-in-london":  12000,
+"conf-interval":   4000,
+"population-per-nationality":   30.8 
+},
+{
+ "nationality": "Canada",
+"population-in-london":  12000,
+"conf-interval":   3000,
+"population-per-nationality":   28.4 
+},
+{
+ "nationality": "Colombia",
+"population-in-london":  12000,
+"conf-interval":   4000,
+"population-per-nationality":   90.7 
+},
+{
+ "nationality": "Slovakia",
+"population-in-london":  11000,
+"conf-interval":   4000,
+"population-per-nationality":   20.2 
+},
+{
+ "nationality": "Korea (South)",
+"population-in-london":  10000,
+"conf-interval":   4000,
+"population-per-nationality":   53.4 
+} 
+]
