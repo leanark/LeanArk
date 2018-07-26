@@ -1,29 +1,19 @@
-<style type="text/css">
-.slider {
-	display: block;
-	height: 10px;
-	margin: 10px 0px 10px 0px;
-}
-</style>
-<main class="container-fluid">
-  <div class="back">
-    <a ui-sref="gallery"><i class="fa fa-arrow-left fa-2x"></i></a>
-  </div>
-  <h2>
-    <center>
-      Ratio of House Prices to Earnings, Borough<br /> 
-      <small>Ratios are calculated by dividing house price by the median earnings of a borough.</small>
-    </center>
+<div class="back">
+  <a ui-sref="gallery"><i class="fa fa-arrow-left fa-2x"></i></a>
+</div>
+<div class="container-fluid">
+  <h2 class="text-center">
+    Ratio of House Prices to Earnings, Borough<br /> <small>Ratios are calculated by dividing house price by the median earnings of a borough.</small>
   </h2>
-  <div class="col-lg-2">
-    Year: <span class="badge">{{rosette.selectedYear}}</span> <input type="range" min="2004" max="2014" ng-model="rosette.selectedYear">
+
+  <div class="row">
+    <div class="col-lg-2 col-xs-2">
+      Year: <span class="badge">{{rosette.selectedYear}}</span> <input type="range" min="2004" max="2014" ng-model="rosette.selectedYear">
+    </div>
   </div>
-  <div ng-repeat="d in rosette.data | filter: {year: rosette.selectedYear}">
-    <div leanark-rosette-chart></div>
+  <div class="row">
+    <div class="col-lg-12" ng-repeat="d in rosette.data | filter: {year: rosette.selectedYear}">
+      <div leanark-rosette-chart></div>
+    </div>
   </div>
-</main>
-<script>
-  $(function() {
-    $('main').height($(window).height() - 112);
-  });
-</script>
+</div>

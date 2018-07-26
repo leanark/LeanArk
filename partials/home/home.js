@@ -12,19 +12,17 @@ angular.module('myApp.home', [])
 }])
 
 .controller('HomeCtrl', ['$scope', '$http', 'ip', function($scope, $http, ip) {
-  $scope.diagrams = ['img/home/diagram-data-vis.svg', 'img/home/diagram-app.svg', 'img/home/diagram-deployment.svg'];
-  $scope.isWorking = false;
-  
+  $scope.diagrams = ['img/home/diagram-data-vis-banner.svg', 'img/home/diagram-app-banner.svg', 'img/home/diagram-deployment-banner.svg'];
   $scope.getDiagram = function (elemId, diagram) {
 	  
     d3.xml(diagram, 'image/svg+xml', function(xml) {
-	  var width = 1900, height = 450;
-	  var zoom = d3.behavior.zoom().scaleExtent([ 1, 8 ]).on('zoom', zoomed);
+	  var width = 1750, height = 450;
+	  //var zoom = d3.behavior.zoom().scaleExtent([ 1, 8 ]).on('zoom', zoomed);
 
 	  var svg = d3.select('#'+elemId).append('svg').attr('width', '100%').attr('height', '100%').attr('viewBox', '0, 0, ' + width + ', ' + height);
 	  var g = svg.append('g');
 
-	  svg.call(zoom).call(zoom.event);
+	  //svg.call(zoom).call(zoom.event);
 
 	  g.node().appendChild(xml.documentElement);
 
@@ -35,9 +33,9 @@ angular.module('myApp.home', [])
 	    return d3.selectAll('[id*=road]').classed('active-path', false);
 	  });
 
-	  function zoomed() {
+/*	  function zoomed() {
 	    g.attr('transform', 'translate(' + d3.event.translate + ')scale('+ d3.event.scale + ')');
-	  }
+	  }*/
 
     });	
   };
@@ -121,7 +119,7 @@ angular.module('myApp.home', [])
 	  $scope.isDisabled = false;
 	  //alert("Your enquiry has been sent.");		  
 	})
-	.error(function() {console.log("error");});		    	  
+	.error(function() { console.log("error"); });		    	  
   };
   
 /*  $scope.sendEnquiry = function() {

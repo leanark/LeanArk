@@ -1,0 +1,19 @@
+<div class="container" ng-controller="NavTopBarCtrl">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+      <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+    </button>
+     <a class="navbar-brand" ui-sref="home"><img class="img-responsive" id="logo" alt="logo" src="img/leanark.png" /></a>      
+     <!-- <a class="navbar-brand" ui-sref="home"><div id="logo" ng-init="getSvg('logo', 'img/leanark.svg')"></div></a>
+    
+    <a class="navbar-brand" ui-sref="home"><div id="logo" ng-init="getSvg('logo', 'img/leanark.svg')"></div></a> -->
+    
+  </div>
+  <div id="navbar" class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+      <!-- <li  ng-class="{ active: $state.includes('home') }"><a ui-sref="home">H O M E</a></li>  -->
+      <li  ng-class="{ active: $state.includes('about') }"><a ui-sref="about">A B O U T</a></li>
+      <li  ng-class="{ active: $state.includes('gallery') }"><a ui-sref="gallery">H I G H L I G H T S</a></li>      
+    </ul>
+  </div>
+</div>

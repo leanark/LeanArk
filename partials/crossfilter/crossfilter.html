@@ -1,16 +1,14 @@
-<main class="container-fluid">
 <div class="back">
   <a ui-sref="gallery"><i class="fa fa-arrow-left fa-2x"></i></a>
 </div>
-<center>
-  <span id="loading"><i class="fa fa-cog fa-spin fa-5x"></i>
-  <h1>Loading. Please wait ...</h1></span>
-</center>
+<div class="container-fluid">
+<span id="loading">
+  <center><i class="fa fa-cog fa-spin fa-5x"></i></center>
+  <h1 class="text-center">Loading. Please wait ...</h1>
+</span>
 <span id="charts" class="hidden">
   <div class="row">
-    <h2>
-      <center>Recorded Crime Summary Data for London</center>
-    </h2>
+    <h2 class="text-center">Recorded Crime Summary Data for London</h2>
     <div class="col-lg-6">
       <div id="row-chart2"></div>
     </div>
@@ -22,11 +20,5 @@
     </div>
   </div>
 </span>
-</main>
-<script>
-	$(function() {
-		$('main').height($(window).height() - 112);
-	});
-</script>
-
+</div>
 <script src="js/leanark-crossfilter.js"></script>

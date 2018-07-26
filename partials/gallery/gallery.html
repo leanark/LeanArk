@@ -1,6 +1,13 @@
 <main class="container-fluid">
-<h2>
-  <center>Gallery</center>
-</h2>
-<leanark-gallery />
+  <div class="row">
+    <div class="jumbotron gradient" style="margin-bottom: 0;">
+      <h2 class="text-center slogan">More with Less.</h2>
+      <div id="slide0" ng-init="getDiagram('slide0', diagrams[0])"></div>     
+    </div>
+  </div>
+  <div ng-include="'shared/banner.html'"></div>
 </main>
+<div class="container-fluid">
+  <h2 class="text-center">Visualisation and interactivity<br/><small>examples of ways to add value to a project</small></h2> 
+  <leanark-gallery />
+</div>

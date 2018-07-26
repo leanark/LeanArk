@@ -11,3 +11,17 @@
     color: $color-very-dark; 
   }
 }
+
+.btn-primary
+{  
+  background-color: $highlight-color;
+  border-color: $highlight-color;
+  &:hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active {
+    background-color: $highlight-color-very-dark;
+    border-color: $highlight-color-very-dark;
+  }
+}

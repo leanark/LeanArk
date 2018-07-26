@@ -1,22 +1,53 @@
 <main class="container-fluid">
   <div class="row">
-    <div class="jumbotron gradient" style="margin-bottom: 0;">
-      <h2 class="text-center slogan">More with Less.</h2>
-      <!-- <h2 class="text-center slogan">Less is only more where more is no good. <small> Frank Lloyd Wright</small></h2> -->
-      <div id="slide1" ng-init="getDiagram('slide1', diagrams[1])"></div>
+    <div id="carousel" class="carousel slide gradient" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div id="slide0" ng-init="getDiagram('slide0', diagrams[0])"></div>
+          <div class="carousel-caption">
+            <h3>We build lightweight software products</h3>
+<!--             <p>Typical web application - UI client (web, desktop, or mobile), back-end services (RESTful API end points returning plain Json)</p>
+           -->
+          </div>
+        </div>
+        <div class="item">
+          <div id="slide1" ng-init="getDiagram('slide1', diagrams[1])"></div>
+          <div class="carousel-caption">
+            <h3>We emphasize lean software architecture</h3>
+            <!-- <p>Messaging system - queue service, asynchronous client and service.</p>
+             -->
+          </div>
+        </div>
+        <div class="item">
+          <div id="slide2" ng-init="getDiagram('slide2', diagrams[2])"></div>
+          <div class="carousel-caption">
+            <h3>We offer automatic containerized deployment</h3>
+            <!-- <p>In just minutes you can provision, start, test, and release your application on your laptop, server, datacenter, or cloud.</p>
+           -->
+          </div>
+        </div>
+      </div>
+
+      <a class="left carousel-control" href="#carousel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span>
+      </a> <a class="right carousel-control" href="#carousel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span>
+      </a>
     </div>
-  </div>
-  <div ng-include="'shared/banner.html'"></div>
+    <h1>
+      <center>Doing old things in new ways</center>
+    </h1>
+  </div> 
 </main>
+
 <div class="container">
   <div class="row">
-    <h2 class="text-center">Our software solutions<br/><small>Lean architecture, microservices, and containers</small></h2>
-    <p class="text-center"><a class="btn btn-primary btn-lg" ui-sref="about" role="button">Read more</a></p>              
-  </div>
-  <div class="row">
-    <hr />    
-    <h2 class="text-center">Major components of our software solutions</h2>   
-    <div class="col-lg-3 col-sm-6" ng-repeat="item in items">
+    <div class="col-lg-3" ng-repeat="item in items">
       <img ng-src="{{item.image}}" alt="" width="100%">
       <h2>{{item.title}}</h2>
       <ul class="list-group">
@@ -27,15 +58,20 @@
       </p>
     </div>
   </div>
+
   <div class="row">
     <hr />
     <div class="col-lg-8">
-      <h3 class="text-center">Our skills</h3>
+      <h3>
+        <center>LeanArk directions</center>
+      </h3>
       <div id="bubble-chart"></div>
     </div>
     <div class="col-lg-4">
       <div class="panel panel-default">
-        <h3 class="text-center">Connect</h3>
+        <h3>
+          <center>Connect</center>
+        </h3>
         <div class="panel-body">
           <form id='enquiryForm' ng-submit="sendEnquiry()">
             <div class="form-group">
@@ -64,8 +100,8 @@
 <script src="js/leanark-bubble-chart.js"></script>
   
 <script>
-  $(function() {
-	//var $main = $('main');
-	//$main.height($(window).height() - $main.offset().top);
-  });
+	$(function() {
+		$('main').height($(window).height() - 72);
+		$('.carousel').carousel();
+	});
 </script>

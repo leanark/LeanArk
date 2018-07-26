@@ -14,7 +14,9 @@
 
 .carousel-inner>.item>div {
     margin: auto 0;
-    height: 600px;
+    height: 450px;
+    text-shadow: none; 
+    color: $color-dark;
 }
 
 .carousel-indicators li{
@@ -27,4 +29,17 @@
 
 .carousel-control {
   background-image: none!important;
+}
+
+.carousel-caption {
+  /*top: 100%;
+  transform: translateY(-100%);
+  bottom: initial;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;*/   
+}
+
+.carousel-caption h3 {
+  color: $highlight-color;
 }

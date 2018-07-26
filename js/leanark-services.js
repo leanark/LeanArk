@@ -4,7 +4,7 @@ var services = angular.module('myApp.services', []);
 
 services.factory('PinboardService', [function() {
   var colCount = 0,
-	  colWidth = 300,
+	  colWidth = 400,
 	  margin = 10,
 	  spaceLeft = 0,
 	  windowWidth = 0,

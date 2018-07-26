@@ -2,11 +2,13 @@
 
 angular.module('myApp', [
   'ui.router',
+  'myApp.navTopBarMod',
   'myApp.services',
   'myApp.directives',
   'myApp.filters',
   'myApp.animations',
   'myApp.home',
+  'myApp.about',
   'myApp.treemap',
   'myApp.rosette',
   'myApp.crossfilter',
@@ -25,13 +27,16 @@ angular.module('myApp', [
 	
   $rootScope.$state = $state;
   $rootScope.$stateParams = $stateParams;
-  
+  $rootScope.$on("$stateChangeSuccess", function(){
+    window.scrollTo(0,0);
+    //document.body.scrollTop = document.documentElement.scrollTop = 0;
+  });
 }])
 
 .value('ip', 'http://localhost:3000')
 
 .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
   
-  //$urlRouterProvider.otherwise("/"); 
+  $urlRouterProvider.otherwise("/"); 
 
 }]);

@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
 }
 
+footer {
+  min-height: 35px;
+}
+
 .block {
   position: absolute;
   background: #eee;
@@ -47,16 +51,7 @@ body {
 
 .back {
   position: absolute; 
-  top: -62px; 
+  top: 0px; 
   left: 10px;
 }
 
-a {
-  color: $color;
-  &:hover {
-    color: $highlight-color-dark;  
-  } 
-  &:focus {
-    color: $highlight-color-dark;  
-  } 
-}

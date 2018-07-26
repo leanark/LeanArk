@@ -1,38 +1,21 @@
 'use strict';
 
-angular.module('myApp.gallery', [])
-.config(['$stateProvider', function($stateProvider) {
+angular.module('myApp.about', [])
+
+.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
   $stateProvider
-  .state ('gallery', {
-    url: '/gallery',
-    templateUrl: 'partials/gallery/gallery.html',
-    controller: 'GalleryCtrl'	  
-  });	
+    .state('about', {
+      url: '/about',
+      templateUrl: 'partials/about/about.html',
+      controller: 'AboutCtrl'
+  }); 
 }])
 
-.directive('leanarkGallery', [function() {
-  return {
-	restrict: 'AE',
-	templateUrl: 'partials/gallery/gallery-widget.html',
-    link: function(scope, element, attrs) {
-	  $('.block img').load(function(){
-		scope.setupBlocks();
-	  });
-      
-      $(window).resize(function(){
-    	scope.setupBlocks();  
-      });     
-    }
-  };
-}])
-
-.controller('GalleryCtrl', ['PinboardService', '$scope',  function(PinboardService, $scope) {  
-  $scope.setupBlocks = function() {
-    PinboardService.setupBlocks();	  
-  };
+.controller('AboutCtrl', ['$scope', '$http', 'ip', function($scope, $http, ip) {
   $scope.diagrams = ['img/home/diagram-data-vis-banner.svg', 'img/home/diagram-app-banner.svg', 'img/home/diagram-deployment-banner.svg'];
+  
   $scope.getDiagram = function (elemId, diagram) {
-	    
+    
     d3.xml(diagram, 'image/svg+xml', function(xml) {
       var width = 1750, height = 450;
   
@@ -47,8 +30,6 @@ angular.module('myApp.gallery', [])
       .on('mouseout', function() {
         return d3.selectAll('[id*=road]').classed('active-path', false);
       });
-
     }); 
   };
-  
 }]);

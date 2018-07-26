@@ -11,10 +11,13 @@ directives.directive('leanarkCrossfilter', [function() {
 
 directives.directive('leanarkRosetteChart', [ function () {
 
-  var   width = $(window).height()-70,
-	    height = $(window).height()/2-140,
+  var   //width = $(window).height()-70,
+	    //height = $(window).height()/2-140,
+        width=1200,
+        height=400,
 	    margin = 0,
-	    radius = Math.min(width, height) / 2,
+	    //radius = Math.min(width, height) / 2,
+	    radius = 200,
 	    innerRadius = 0.3 * radius;
   
   var percentFormat = d3.format("%");
