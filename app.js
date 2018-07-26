@@ -33,7 +33,7 @@ angular.module('myApp', [
   });
 }])
 
-.value('ip', 'http://localhost:3000')
+.value('ip', 'https://leanark.com')
 
 .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
   
