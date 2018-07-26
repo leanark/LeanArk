@@ -13,7 +13,7 @@
    height="450"
    id="svg4403"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="diagram-app-banner.svg">
   <defs
      id="defs4405" />
@@ -25,15 +25,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70157895"
-     inkscape:cx="950"
+     inkscape:cx="794.63616"
      inkscape:cy="225"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="1440"
      inkscape:window-height="852"
-     inkscape:window-x="52"
-     inkscape:window-y="21"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
      inkscape:window-maximized="0"
      borderlayer="true"
      inkscape:snap-object-midpoints="true">
@@ -115,13 +115,13 @@
     <text
        sodipodi:linespacing="125%"
        id="text5385"
-       y="764.3548"
-       x="-557.77869"
-       style="font-size:133.63659668px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.5;fill:#d6604d;fill-opacity:1;stroke:none;display:inline;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"
+       y="809.46112"
+       x="-237.53622"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.63659668px;line-height:125%;font-family:FontAwesome;-inkscape-font-specification:FontAwesome;letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.5;fill:#d6604d;fill-opacity:1;stroke:none"
        xml:space="preserve"
        transform="scale(-1.0548553,0.94799732)"><tspan
-         y="764.3548"
-         x="-557.77869"
+         y="809.46112"
+         x="-237.53622"
          id="tspan5387"
          sodipodi:role="line"> </tspan></text>
     <path
@@ -632,17 +632,5 @@
            y="356.56506"
            style="stroke-width:1.18655479"></tspan></text>
     </g>
-    <text
-       transform="matrix(0.93060732,-0.55172604,0,1.0745671,0,0)"
-       xml:space="preserve"
-       style="font-size:180.73356628px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#878787;fill-opacity:1;stroke:none;display:inline;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"
-       x="62.387051"
-       y="797.0351"
-       id="text3109"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3111"
-         x="62.387051"
-         y="797.0351"></tspan></text>
   </g>
 </svg>
