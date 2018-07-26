@@ -1,8 +1,6 @@
 <main class="container-fluid">
   <div class="row">
     <div class="jumbotron gradient" style="margin-bottom: 0;">
-      <h2 class="text-center slogan">More with Less.</h2>
-      <!-- <h2 class="text-center slogan">Less is only more where more is no good. <small> Frank Lloyd Wright</small></h2> -->
       <div id="slide1" ng-init="getDiagram('slide1', diagrams[1])"></div>
     </div>
   </div>
@@ -10,12 +8,14 @@
 </main>
 <div class="container">
   <div class="row">
-    <h2 class="text-center">Our software solutions<br/><small>Lean architecture, microservices, and containers</small></h2>
-    <p class="text-center"><a class="btn btn-primary btn-lg" ui-sref="about" role="button">Read more</a></p>              
+      <section style="min-height: 100px;">
+        <h2 class="text-center">Our software solutions<br/><small>Lean architecture, microservices, and containers</small></h2>
+      </section>
+    <!-- <p class="text-center"><a class="btn btn-primary btn-lg" ui-sref="about" role="button">Read more</a></p>               -->
   </div>
   <div class="row">
     <hr />    
-    <h2 class="text-center">Major components of our software solutions</h2>   
+    <section style="min-height: 100px;"><h2 class="text-center">Major components of our software solutions</h2></section>   
     <div class="col-lg-3 col-sm-6" ng-repeat="item in items">
       <img ng-src="{{item.image}}" alt="" width="100%">
       <h2>{{item.title}}</h2>
@@ -29,11 +29,36 @@
   </div>
   <div class="row">
     <hr />
-    <div class="col-lg-8">
+    <div class="col-lg-12">
       <h3 class="text-center">Our skills</h3>
       <div id="bubble-chart"></div>
     </div>
-
+    <!-- <div class="col-lg-4">
+      <div class="panel panel-default">
+        <h3 class="text-center">Connect</h3>
+        <div class="panel-body">
+          <form id='enquiryForm' ng-submit="sendEnquiry()">
+            <div class="form-group">
+              <label for="inputFirstName">First name*</label> <input type="text" class="form-control" id="inputFirstName" ng-model="enquiry.firstname" placeholder="Your first name" ng-maxlength="255" required>
+            </div>
+            <div class="form-group">
+              <label for="inputLastName">Last name*</label> <input type="text" class="form-control" id="inputLastName" ng-model="enquiry.lastname" placeholder="Your last name" ng-maxlength="255" required>
+            </div>
+            <div class="form-group">
+              <label for="inputEmail">Email*</label> <input type="email" class="form-control" id="inputEmail" ng-model="enquiry.email" placeholder="Your email address" ng-maxlength="255" required>
+            </div>
+            <div class="form-group">
+              <label for="inputSubject">Subject*</label> <input type="text" class="form-control" id="inputSubject" ng-model="enquiry.subject" placeholder="Your enquiry subject" ng-maxlength="255" required>
+            </div>
+            <div class="form-group">
+              <label for="textAreaMessage">Message*</label>
+              <textarea class="form-control" id="textAreaMessage" rows="3" ng-model="enquiry.message" placeholder="Your enquiry message" ng-maxlength="255" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-default" ng-disabled="isDisabled">Send enquiry</button>
+          </form>
+        </div>
+      </div>
+    </div> -->
   </div>
 </div>
 <script src="js/leanark-bubble-chart.js"></script>
