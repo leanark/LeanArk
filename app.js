@@ -29,7 +29,7 @@ angular.module('myApp', [
     });
   }])
 
-  .value('ip', 'http://leanark.com')
+  .value('ip', 'https://leanark.com')
 
   .config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
 
