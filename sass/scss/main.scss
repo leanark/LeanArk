@@ -14,35 +14,12 @@ footer {
 }
 
 .block {
-  position: absolute;
-  background: #eee;
-  padding: 20px;
-  width: 300px;
-  border: 1px solid #ddd;
-}
-
-.block {
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+  padding: 24px;
 }
 
 .block img {
   width: 100%;
   height: 100%;
-}
-.panel-transparent {
-  background: none;
-}
-
-.panel-transparent .panel-heading{
-  background: rgba(122, 130, 136, 0.2)!important;
-}
-
-.panel-transparent .panel-body{
-  background: rgba(46, 51, 56, 0.2)!important;
 }
 
 .active-path {
@@ -51,7 +28,167 @@ footer {
 
 .back {
   position: absolute; 
-  top: 0px; 
+  top: 10px; 
   left: 10px;
 }
 
+.navbar-slogan {
+  line-height: 100px;
+}
+
+section {
+  padding-top: 60px;
+}
+
+h2.header-2rows {
+  line-height: 40px;
+}
+
+h2.header-1row {
+  line-height: 100px;
+}
+
+h3.header {
+  line-height: 40px;
+}
+
+hr.top {
+  margin-top: 0; 
+}
+
+.carousel-inner > .item > div{
+  height: 480px !important;
+}
+
+/* Range ========================================================================== */
+.no-select, input[type=range],
+input[type=range] + .thumb {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.range-field {
+  position: relative; }
+
+input[type=range],
+input[type=range] + .thumb {
+  cursor: pointer; }
+
+input[type=range] {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 15px 0;
+  padding: 0; }
+  input[type=range]:focus {
+    outline: none; }
+
+input[type=range] + .thumb {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  border: none;
+  height: 0;
+  width: 0;
+  border-radius: 50%;
+  background-color: #757575;
+  margin-left: 7px;
+  transform-origin: 50% 50%;
+  transform: rotate(-45deg); }
+  input[type=range] + .thumb .value {
+    display: block;
+    width: 30px;
+    text-align: center;
+    color: #757575;
+    font-size: 0;
+    transform: rotate(45deg); }
+  input[type=range] + .thumb.active {
+    border-radius: 50% 50% 50% 0; }
+    input[type=range] + .thumb.active .value {
+      color: #fff;
+      margin-left: -1px;
+      margin-top: 8px;
+      font-size: 10px; }
+
+input[type=range] {
+  -webkit-appearance: none; }
+
+input[type=range]::-webkit-slider-runnable-track {
+  height: 2px;
+  background: #757575;
+  border: none; }
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background-color: #757575;
+  transform-origin: 50% 50%;
+  margin: -10px 0 0 0;
+  transition: .3s; }
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #757575; }
+
+input[type=range] {
+  /* fix for FF unable to apply focus style bug  */
+  border: 0px solid white;
+  /*required for proper track sizing in FF*/ }
+
+input[type=range]::-moz-focus-outer {
+  border: 0;
+}
+
+input[type=range]::-moz-range-track {
+  height: 2px;
+  background: #757575;
+  border: none; }
+
+input[type=range]::-moz-range-thumb {
+  border: none;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background: #757575;
+  margin-top: -5px; }
+
+input[type=range]:-moz-focusring {
+  outline: 0px solid #fff;
+  outline-offset: -1px; }
+
+input[type=range]:focus::-moz-range-track {
+  background: #757575; }
+
+input[type=range]::-ms-track {
+  height: 2px;
+  background: transparent;
+  border-color: transparent;
+  border-width: 6px 0;
+  /*remove default tick marks*/
+  color: transparent; }
+
+input[type=range]::-ms-fill-lower {
+  background: #777; }
+
+input[type=range]::-ms-fill-upper {
+  background: #ddd; }
+
+input[type=range]::-ms-thumb {
+  border: none;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background: #757575; }
+
+input[type=range]:focus::-ms-fill-lower {
+  background: #888; }
+
+input[type=range]:focus::-ms-fill-upper {
+  background: #ccc; }

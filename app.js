@@ -5,27 +5,34 @@ angular.module('myApp', [
   'myApp.navTopBarMod',
   'myApp.services',
   'myApp.directives',
-  'myApp.filters',
   'myApp.animations',
   'myApp.home',
-  'myApp.about',
   'myApp.treemap',
   'myApp.rosette',
-  'myApp.crossfilter',
-  'myApp.gallery'
+  'myApp.crossfilter'
 ])
-.run(['$rootScope', '$state', '$stateParams', function($rootScope, $state, $stateParams) {
-  $rootScope.$state = $state;
-  $rootScope.$stateParams = $stateParams;
-  $rootScope.$on("$stateChangeSuccess", function(){
-    window.scrollTo(0,0);
-  });
-}])
+  .run(['$rootScope', '$state', '$stateParams', function ($rootScope, $state, $stateParams) {
 
-.value('ip', 'https://leanark.com')
+    // It's very handy to add references to $state and
+    // $stateParams to the $rootScope
+    // so that you can access them from any scope within your
+    // applications.For example,
+    // <li ng-class="{ active: $state.includes('contacts.list')
+    // }"> will set the <li>
+    // to active whenever 'contacts.list' or one of its
+    // decendents is active.
 
-.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
-  
-  $urlRouterProvider.otherwise("/"); 
+    $rootScope.$state = $state;
+    $rootScope.$stateParams = $stateParams;
+    $rootScope.$on("$stateChangeSuccess", function () {
+      window.scrollTo(0, 0);
+    });
+  }])
 
-}]);
+  .value('ip', 'https://leanark.com')
+
+  .config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
+
+    $urlRouterProvider.otherwise("/");
+
+  }]);

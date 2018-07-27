@@ -1,14 +1,21 @@
+<hr class="top" />
 <div class="back">
-  <a ui-sref="gallery"><i class="fa fa-arrow-left fa-2x"></i></a>
+  <a ui-sref="home">
+    <i class="fa fa-arrow-left fa-2x"></i>
+  </a>
 </div>
 <div class="container-fluid">
-  <h2 class="text-center">
-    Ratio of House Prices to Earnings, Borough<br /> <small>Ratios are calculated by dividing house price by the median earnings of a borough.</small>
+  <h2 class="text-center header-2rows">
+    Ratio of House Prices to Earnings, Borough
+    <br />
+    <small>Ratios are calculated by dividing house price by the median earnings of a borough.</small>
   </h2>
 
   <div class="row">
     <div class="col-lg-2 col-xs-2">
-      Year: <span class="badge">{{rosette.selectedYear}}</span> <input type="range" min="2004" max="2014" ng-model="rosette.selectedYear">
+      Year:
+      <span class="badge">{{rosette.selectedYear}}</span>
+      <input type="range" min="2004" max="2014" ng-model="rosette.selectedYear">
     </div>
   </div>
   <div class="row">

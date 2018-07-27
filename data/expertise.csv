@@ -2,6 +2,7 @@ name,strength
 Root,0
 .NET,9
 C#,9
+SOA,12
 Enterprise Architecture,10
 Agile Methodologies,8
 JavaScript,9
@@ -10,15 +11,14 @@ jQuery,10
 HTML5,11
 CSS,11
 Bootstrap,12
-D3.js,15
+D3.js,12
 Cytoscape,13
 R,13
 MongoDB,14
 SVG,14
 XML,8
+XSD,9
+XSLT,8
 SQL,11
 Java,15
 Go,17
-Docker,10
-LXC/LXD,15
-Linux,14 

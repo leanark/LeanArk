@@ -1,39 +1,175 @@
 <main class="container-fluid">
   <div class="row">
-    <div class="jumbotron gradient" style="margin-bottom: 0;">
-      <div id="slide1" ng-init="getDiagram('slide1', diagrams[1])"></div>
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active gradient">
+          <div id="slide1" ng-init="getDiagram('slide1', diagrams[0])"></div>
+          <div class="carousel-caption">
+            <h3>We build lightweight software products</h3>
+            <br/>
+          </div>
+        </div>
+        <div class="item gradient">
+          <div id="slide2" ng-init="getDiagram('slide2', diagrams[1])"></div>
+          <div class="carousel-caption">
+            <h3>We offer automatic containerized deployment</h3>
+          </div>
+        </div>
+        <div class="item gradient">
+          <div id="slide3" ng-init="getDiagram('slide3', diagrams[2])"></div>
+          <div class="carousel-caption">
+            <h3>We emphasize lean software architecture</h3>
+          </div>
+        </div>
+      </div>
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#carousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
   </div>
   <div ng-include="'shared/banner.html'"></div>
 </main>
-<div class="container">
-  <div class="row">
-      <section style="min-height: 100px;">
-        <h2 class="text-center">Our software solutions<br/><small>Lean architecture, microservices, and containers</small></h2>
-      </section>
-    <!-- <p class="text-center"><a class="btn btn-primary btn-lg" ui-sref="about" role="button">Read more</a></p>               -->
-  </div>
-  <div class="row">
-    <hr />    
-    <section style="min-height: 100px;"><h2 class="text-center">Major components of our software solutions</h2></section>   
-    <div class="col-lg-3 col-sm-6" ng-repeat="item in items">
-      <img ng-src="{{item.image}}" alt="" width="100%">
-      <h2>{{item.title}}</h2>
-      <ul class="list-group">
-        <li class="list-group-item animated-item" ng-repeat="detail in item.details | limitTo: item.showDetails">{{detail}}</li>
-      </ul>
-      <p>
-        <a class="btn btn-default" ng-click="toggleDetails(item)" href="javascript:void(0);" role="button">{{item.detailsAction}} details</a>
+<div class="container-fluid">
+  <!-- Company section -->
+  <section>
+    <div class="row">
+      <h2 class="text-center header-2rows">Our software solutions
+        <br/>
+        <small>Lean architecture, microservices, and containers</small>
+      </h2>
+      <p class="text-center">
+        <a class="btn btn-primary btn-lg" ng-click="isCollapsed=!isCollapsed" data-toggle="collapse" data-target="#company">{{isCollapsed?'More':'Less'}}</a>
       </p>
     </div>
+  </section>
+  <div id="company" class="collapse container">
+    <section>
+      <div class="row">
+        <h2 class="text-center">Company</h2>
+        <hr />
+        <div class="col-lg-6 col-sm-6">
+          <p class="lead text-justify">LeanArk is a modern dynamic software development company which helps clients to achieve their goals in the most
+            efficient and economic way.</p>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <p class="lead text-justify">LeanArk solutions are lightweight and cost effective. They are based on principles of lean manufacturing and agile
+            delivery.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+        <h2 class="text-center">Philosophy</h2>
+        <hr />
+        <div class="col-lg-6 col-sm-6">
+          <p class="lead text-justify">LeanArk is actively working on delivery cost effective quality products in the shortest time.</p>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <p class="lead text-justify">Our goal is to eliminate waste in software development process and ensure that our customers are getting the best
+            value for their money.</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+        <h2 class="text-center">Practices</h2>
+        <hr />
+        <div class="col-lg-6 col-sm-6">
+          <p class="lead text-justify">Our solutions designed and developed following reproducibility principals and released live using custom designed
+            continuous delivery pipelines.</p>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <p class="lead text-justify">The high quality of our solutions is insured by our architecture approach, agile development, and programmed infrastructure.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+        <h2 class="text-center">Services</h2>
+        <hr />
+        <div class="col-lg-6 col-sm-6">
+          <p class="lead text-justify">We start with researching of business needs and identifying required business capabilities. We enable the business
+            capabilities by designing a set of loosely coupled services which form a system core. We deploy implemented services
+            using operating system level virtualisation - containers.</p>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <p class="lead text-justify">We tend to deliver a minimal viable product within 6 weeks after initial research, planning, and design stage.
+            Then, we continue working with the client adding new features and business capabilities until our custom tailored
+            solution satisfies customer's needs.</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+        <h2 class="text-center">Products</h2>
+        <hr />
+        <div class="col-lg-6 col-sm-6">
+          <p class="lead text-justify">Our solutions work on various devices and can be accesses through web browsers, mobile or desktop applications.
+            Our user interfaces are intuitive and responsive. We build interactive interfaces to explore and manipulate large
+            data sets from various sources - data API's, databases.
+          </p>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <p class="lead text-justify">We offer our unique product specifically designed to help create, deploy, and monitor virtualised containers infrastructure.
+          </p>
+        </div>
+      </div>
+    </section>
   </div>
-  <div class="row">
-    <hr />
-    <div class="col-lg-12">
-      <h3 class="text-center">Our skills</h3>
-      <div id="bubble-chart"></div>
+  <!-- Software components section -->
+  <section>
+    <div class="container-fluid">
+      <hr />
+      <h2 class="text-center header-1row">Major components of our software solutions</h2>
+      <div class="col-lg-3 col-sm-6" ng-repeat="item in items">
+        <img ng-src="{{item.image}}" alt="" width="100%">
+        <h3>{{item.title}}</h3>
+        <ul class="list-group">
+          <li class="list-group-item animated-item" ng-repeat="detail in item.details | limitTo: item.showDetails">{{detail}}</li>
+        </ul>
+        <p>
+          <a class="btn btn-default" ng-click="toggleDetails(item)" href="javascript:void(0);" role="button">{{item.detailsAction}}</a>
+        </p>
+      </div>
     </div>
-    <!-- <div class="col-lg-4">
+  </section>
+  <!-- Gallery section -->
+  <section>
+    <div class="row gradient">
+      <h2 class="text-center header-2rows">Add-on components
+        <br/>
+        <small>Visualisation and interactivity</small>
+      </h2>
+      <leanark-gallery />
+    </div>
+  </section>
+  <!-- Our skills section -->
+  <section>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2 class="text-center header-2rows">Our skills</h2>
+        <div id="bubble-chart"></div>
+      </div>
+    </div>
+  </section>
+</div>
+<script src="js/leanark-bubble-chart.js"></script>
+<!-- <div class="col-lg-4">
       <div class="panel panel-default">
         <h3 class="text-center">Connect</h3>
         <div class="panel-body">
@@ -59,13 +195,3 @@
         </div>
       </div>
     </div> -->
-  </div>
-</div>
-<script src="js/leanark-bubble-chart.js"></script>
-  
-<script>
-  $(function() {
-	//var $main = $('main');
-	//$main.height($(window).height() - $main.offset().top);
-  });
-</script>
