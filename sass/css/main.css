@@ -275,7 +275,7 @@ footer {
   line-height: 100px; }
 
 section {
-  padding-top: 60px; }
+  padding-top: 40px; }
 
 h2.header-2rows {
   line-height: 40px; }
@@ -290,7 +290,11 @@ hr.top {
   margin-top: 0; }
 
 .carousel-inner > .item > div {
-  height: 480px !important; }
+  height: 370px !important; }
+
+.lead {
+  font-size: 17px !important;
+  color: #999; }
 
 /* Range ========================================================================== */
 .no-select, input[type=range],

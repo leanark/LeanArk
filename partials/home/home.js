@@ -2,24 +2,38 @@
 
 angular.module('myApp.home', [])
 
-  .config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
+  .config(['$stateProvider',  function ($stateProvider) {
     $stateProvider
       .state('home', {
+        url: '/', 
+        templateUrl: 'partials/home/home.html',
+        controller: 'HomeCtrl',       
+      })
+      // created to support scrolling to gallery section of the home page
+      .state('gallery', {
         url: '/',
         templateUrl: 'partials/home/home.html',
-        controller: 'HomeCtrl'
+        controller: 'HomeCtrl',
+        onEnter: function ($timeout) {
+          $timeout(function() { 
+            $('html, body').animate({     
+              scrollTop: $('#gallery').offset().top
+            }, 2000);
+          }, 100)
+        }
       });
   }])
 
-  .controller('HomeCtrl', ['$scope', '$http', 'ip', function ($scope, $http, ip) {
+  .controller('HomeCtrl', ['$scope', function ($scope) {;
+
     $scope.isCollapsed = true;
     $scope.diagrams = ['img/home/diagram-app-banner.svg', 'img/home/diagram-deployment-banner.svg', 'img/home/diagram-data-vis-banner.svg'];
     $scope.getDiagram = function (elemId, diagram) {
 
       d3.xml(diagram, 'image/svg+xml', function (xml) {
-        var width = 1750, height = 500;
+        var width = 1750, height = 560;
         var svg = d3.select('#' + elemId).append('svg').attr('width', '100%').attr('height', '100%').attr('viewBox', '0, 0, ' + width + ', ' + height);
-        var g = svg.append('g').attr('transform','translate(0, 50)'); 
+        var g = svg.append('g').attr('transform','translate(-10, 80)'); 
 
         g.node().appendChild(xml.documentElement);
 
@@ -92,36 +106,4 @@ angular.module('myApp.home', [])
       obj.showDetails = obj.showDetails === 3 ? obj.details.length : 3;
       obj.detailsAction = obj.detailsAction === 'More' ? 'Less' : 'More';
     };
-
-    $scope.enquiry = {};
-    $scope.isDisabled = false;
-
-    $scope.sendEnquiry = function () {
-
-      $scope.isDisabled = true;
-
-      $scope.enquiry.date = new Date().toISOString();
-      $http({
-        method: 'POST',
-        url: ip + '/enquiry',
-        data: $scope.enquiry
-      })
-        .success(function (res) {
-          console.log(res);
-          $scope.isDisabled = false;
-          //alert("Your enquiry has been sent.");		  
-        })
-        .error(function () { console.log("error"); });
-    };
-
-    /*  $scope.sendEnquiry = function() {
-        var modalInstance = $modal.open({
-            animation: $scope.animationsEnabled,
-            templateUrl: 'modal/modal.html',
-            modalOptions: {header: 'header', }
-            //controller: 'ModalInstanceCtrl',
-          });
-        
-      };
-    */
   }]);
