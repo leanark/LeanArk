@@ -1,26 +1,28 @@
 <hr class="top" />
-<div class="back">
-  <a ui-sref="gallery">
-    <i class="fa fa-arrow-left fa-2x"></i>
-  </a>
-</div>
-<div class="container-fluid">
-  <h2 class="text-center header-2rows">
-    Ratio of House Prices to Earnings, Borough
-    <br />
-    <small>Ratios are calculated by dividing house price by the median earnings of a borough.</small>
-  </h2>
+<section class="container-fluid">
+  <div class="back container-fluid">
+    <a ui-sref="gallery">
+      <i class="fa fa-arrow-left fa-2x"></i>
+    </a>
+  </div>
+  <div class="container-fluid">
+    <h2 class="text-center header-2rows">
+      Ratio of House Prices to Earnings, Borough
+      <br />
+      <small>Ratios are calculated by dividing house price by the median earnings of a borough.</small>
+    </h2>
 
-  <div class="row">
-    <div class="col-lg-2 col-xs-2">
-      Year:
-      <span class="badge">{{rosette.selectedYear}}</span>
-      <input type="range" min="2004" max="2014" ng-model="rosette.selectedYear">
+    <div class="row">
+      <div class="col-lg-2 col-xs-2">
+        Year:
+        <span class="badge">{{rosette.selectedYear}}</span>
+        <input type="range" min="2004" max="2014" ng-model="rosette.selectedYear">
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-12" ng-repeat="d in rosette.data | filter: {year: rosette.selectedYear}">
-      <div leanark-rosette-chart></div>
+    <div class="row">
+      <div class="col-lg-12" ng-repeat="d in rosette.data | filter: {year: rosette.selectedYear}">
+        <div leanark-rosette-chart></div>
+      </div>
     </div>
-  </div>
+</section>
 </div>

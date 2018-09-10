@@ -3,38 +3,37 @@
     <div id="carousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="0" class="active" ng-click="runAnimation1()"></li>
+        <li data-target="#carousel" data-slide-to="1" ng-click="runAnimation2()"></li>
+        <li data-target="#carousel" data-slide-to="2" ng-click="runAnimation3()"></li>
       </ol>
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active gradient">
           <div id="slide1" ng-init="getDiagram('slide1', diagrams[0])"></div>
           <div class="carousel-caption">
-            <h3>We build lightweight software products</h3>
-            <br/>
+            <h3 id="slide1-title">We build lightweight software products</h3>
           </div>
         </div>
         <div class="item gradient">
           <div id="slide2" ng-init="getDiagram('slide2', diagrams[1])"></div>
           <div class="carousel-caption">
-            <h3>We offer automatic containerized deployment</h3>
+            <h3 id="slide2-title">We offer automatic containerized deployment</h3>
           </div>
         </div>
         <div class="item gradient">
           <div id="slide3" ng-init="getDiagram('slide3', diagrams[2])"></div>
           <div class="carousel-caption">
-            <h3>We emphasize lean software architecture</h3>
+            <h3 id="slide3-title">We emphasize lean software architecture</h3>
           </div>
         </div>
       </div>
       <!-- Left and right controls -->
-      <a class="left carousel-control" href="#carousel" data-slide="prev">
+      <a class="left carousel-control" href="#carousel" data-slide="prev" ng-click="navigateToSlide($event)">
         <span class="glyphicon glyphicon-chevron-left"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="right carousel-control" href="#carousel" data-slide="next">
+      <a class="right carousel-control" href="#carousel" data-slide="next" ng-click="navigateToSlide($event)">
         <span class="glyphicon glyphicon-chevron-right"></span>
         <span class="sr-only">Next</span>
       </a>
@@ -47,7 +46,7 @@
   <section>
     <div class="row">
       <h2 class="text-center header-2rows">Our software solutions
-        <br/>
+        <br />
         <small>Lean architecture, microservices, and containers</small>
       </h2>
       <p class="text-center">
@@ -59,11 +58,13 @@
     <div class="container-fluid">
       <h2 class="text-center header-1row">Company</h2>
       <div class="col-lg-6 col-sm-6">
-        <p class="lead text-justify">LeanArk is a modern dynamic software development company which helps clients to achieve their goals in the most efficient
+        <p class="lead text-justify">LeanArk is a modern dynamic software development company which helps clients to
+          achieve their goals in the most efficient
           and economic way.</p>
       </div>
       <div class="col-lg-6 col-sm-6">
-        <p class="lead text-justify">LeanArk solutions are lightweight and cost effective. They are based on principles of lean manufacturing and agile
+        <p class="lead text-justify">LeanArk solutions are lightweight and cost effective. They are based on principles
+          of lean manufacturing and agile
           delivery.
         </p>
       </div>
@@ -74,10 +75,12 @@
     <div class="container-fluid">
       <h2 class="text-center header-1row">Philosophy</h2>
       <div class="col-lg-6 col-sm-6">
-        <p class="lead text-justify">LeanArk is actively working on delivery cost effective quality products in the shortest time.</p>
+        <p class="lead text-justify">LeanArk is actively working on delivery cost effective quality products in the
+          shortest time.</p>
       </div>
       <div class="col-lg-6 col-sm-6">
-        <p class="lead text-justify">Our goal is to eliminate waste in software development process and ensure that our customers are getting the best
+        <p class="lead text-justify">Our goal is to eliminate waste in software development process and ensure that our
+          customers are getting the best
           value for their money.</p>
       </div>
     </div>
@@ -87,11 +90,13 @@
     <div class="container-fluid">
       <h2 class="text-center header-1row">Practices</h2>
       <div class="col-lg-6 col-sm-6">
-        <p class="lead text-justify">Our solutions designed and developed following reproducibility principals and released live using custom designed
+        <p class="lead text-justify">Our solutions designed and developed following reproducibility principals and
+          released live using custom designed
           continuous delivery pipelines.</p>
       </div>
       <div class="col-lg-6 col-sm-6">
-        <p class="lead text-justify">The high quality of our solutions is insured by our architecture approach, agile development, and programmed infrastructure.
+        <p class="lead text-justify">The high quality of our solutions is insured by our architecture approach, agile
+          development, and programmed infrastructure.
         </p>
       </div>
     </div>
@@ -101,13 +106,17 @@
     <div class="container-fluid">
       <h2 class="text-center header-1row">Services</h2>
       <div class="col-lg-6 col-sm-6">
-        <p class="lead text-justify">We start with researching of business needs and identifying required business capabilities. We enable the business
-          capabilities by designing a set of loosely coupled services which form a system core. We deploy implemented services
+        <p class="lead text-justify">We start with researching of business needs and identifying required business
+          capabilities. We enable the business
+          capabilities by designing a set of loosely coupled services which form a system core. We deploy implemented
+          services
           using operating system level virtualisation - containers.</p>
       </div>
       <div class="col-lg-6 col-sm-6">
-        <p class="lead text-justify">We tend to deliver a minimal viable product within 6 weeks after initial research, planning, and design stage. Then,
-          we continue working with the client adding new features and business capabilities until our custom tailored solution
+        <p class="lead text-justify">We tend to deliver a minimal viable product within 6 weeks after initial research,
+          planning, and design stage. Then,
+          we continue working with the client adding new features and business capabilities until our custom tailored
+          solution
           satisfies customer's needs.</p>
       </div>
     </div>
@@ -117,13 +126,16 @@
     <div class="container-fluid">
       <h2 class="text-center header-1row">Products</h2>
       <div class="col-lg-6 col-sm-6">
-        <p class="lead text-justify">Our solutions work on various devices and can be accesses through web browsers, mobile or desktop applications. Our
-          user interfaces are intuitive and responsive. We build interactive interfaces to explore and manipulate large data
+        <p class="lead text-justify">Our solutions work on various devices and can be accesses through web browsers,
+          mobile or desktop applications. Our
+          user interfaces are intuitive and responsive. We build interactive interfaces to explore and manipulate large
+          data
           sets from various sources - data API's, databases.
         </p>
       </div>
       <div class="col-lg-6 col-sm-6">
-        <p class="lead text-justify">We offer our unique product specifically designed to help create, deploy, and monitor virtualised containers infrastructure.
+        <p class="lead text-justify">We offer our unique product specifically designed to help create, deploy, and
+          monitor virtualised containers infrastructure.
         </p>
       </div>
     </div>
@@ -151,7 +163,7 @@
   <section>
     <div class="row gradient" id="gallery">
       <h2 class="text-center header-2rows">Add-on components
-        <br/>
+        <br />
         <small>Visualisation and interactivity</small>
       </h2>
       <leanark-gallery />
@@ -168,3 +180,10 @@
   </section>
 </div>
 <script src="js/leanark-bubble-chart.js"></script>
+<script type="text/javascript">
+  (function () {
+    $('#carousel').carousel({
+      interval: false
+    });
+  }());
+</script>

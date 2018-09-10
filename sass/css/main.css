@@ -177,7 +177,8 @@ a {
   top: 0; }
 
 #carousel {
-  background-color: white; }
+  background-color: white;
+  text-align: center; }
 
 .gradient {
   background-image: radial-gradient(white, white, #e0e0e0, #e0e0e0); }
@@ -197,15 +198,7 @@ a {
 .carousel-control {
   background-image: none !important; }
 
-.carousel-caption {
-  /*top: 100%;
-  transform: translateY(-100%);
-  bottom: initial;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;*/ }
-
-.carousel-caption h3 {
+#carousel h3 {
   color: #d6604d; }
 
 .d3-tip {

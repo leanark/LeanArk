@@ -1,5 +1,6 @@
 #carousel {
   background-color: white;
+  text-align: center;
 }
 
 .gradient {
@@ -31,15 +32,7 @@
   background-image: none!important;
 }
 
-.carousel-caption {
-  /*top: 100%;
-  transform: translateY(-100%);
-  bottom: initial;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;*/   
-}
-
-.carousel-caption h3 {
+#carousel h3 {
   color: $highlight-color;
 }
+
